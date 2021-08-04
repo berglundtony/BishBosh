@@ -15,6 +15,8 @@ testa om något är jämnt delbart så kollar man om resten är noll vid divisio
 modulus-operatorn %).
 I denna implementation går det bra att skriva javascriptet inom <script>-taggar direkt i
 HTML-filen och göra sina utskrifter till konsolen.
+
+  
 En andra implementation: Bish-Bosh 2.0
 Nu skall ni skriva om Bish-Bosh med ett visuellt gränssnitt och presentation på en
 HTML-sida. Ni skall även låta en användare sätta indata, alltså:
