@@ -22,8 +22,8 @@ Nu skall ni skriva om Bish-Bosh med ett visuellt gränssnitt och presentation p�
 HTML-sida. Ni skall även låta en användare sätta indata, alltså:
 Vilken siffra som är Bish (tidigare 3), vilken siffra som är Bosh (tidigare 4) och hur långt
 loopen skall gå (tidigare 100) inga negativa värden tillåts.
-● Det skall användas variabler för:
-○ Loop tal (alltså vart loopen ska sluta)
+
+ ● Det skall användas variabler för:Loop tal (alltså vart loopen ska sluta)
 ○ Första divisionstal (det som ska ersättas med Bish)
 ○ Andra divisionstal (det som ska ersättas med Bosh)
 ● Ett webbaserat UI som innehåller:
