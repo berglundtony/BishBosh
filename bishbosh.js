@@ -24,7 +24,7 @@
         const fnum = fnumber.value.trim();
         const snum = snumber.value.trim();
         if (maxnumber.length == 0 || fnum.length == 0 || snum.length == 0) {
-            error.textContent = 'Ange värden i alla fält';
+            error.textContent = 'Ange värden i alla fält.';
             error.style.visibility = 'visible';
            return;
         }
@@ -32,13 +32,13 @@
         const firstnum = parseInt(fnum);
         const secondnum = parseInt(snum);
         if (isNaN(maxsize) || isNaN(firstnum) || isNaN(secondnum)) {
-           error.textContent = 'Endast numeriska värden är tillåtna';
-           elError.style.visibility = 'visible';
+           error.textContent = 'Endast numeriska värden är tillåtna.';
+           error.style.visibility = 'visible';
            return;
         }
         if (maxsize < 1 || firstnum < 0 || secondnum < 0) {
-           elError.textContent = 'Ange ett positivt värde för storleken på loopen';
-           elError.style.visibility = 'visible';
+            error.textContent = 'Ange inte negativa tal.';
+            error.style.visibility = 'visible';
            return;
         }
         let output = '';
